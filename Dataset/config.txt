@@ -1,0 +1,13 @@
+# Crear y activar entorno
+    conda create --name streamlit_env python=3.9.20
+    conda activate streamlit_env
+
+# Instalar dependencias
+    pip install streamlit
+    pip install -r requirements.txt
+
+#Si deseas crear o actualizar requirements.txt con las dependencias actuales (No es necesario)
+    pip freeze > requirements.txt
+
+# Ejecutar la app
+    streamlit run app.py
